@@ -1,19 +1,73 @@
 <keymap version="1" name="VSCode (macOS) copy" parent="VSCode OSX">
-  <action id="CodeCleanup">
-    <keyboard-shortcut first-keystroke="shift meta f" />
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta c" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
+    <keyboard-shortcut first-keystroke="meta slash" />
+    <keyboard-shortcut first-keystroke="shift meta 7" />
   </action>
+  <action id="Console.TableResult.SetDefault" />
   <action id="Diff.FocusOppositePane" />
-  <action id="FindInPath" />
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="EditorNextWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
+  <action id="EditorNextWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta alt right" />
+  </action>
+  <action id="EditorPreviousWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+  </action>
+  <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta alt left" />
+  </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
+  <action id="GotoBookmark0" />
+  <action id="GotoBookmark1" />
+  <action id="GotoBookmark2" />
+  <action id="GotoBookmark3" />
+  <action id="GotoBookmark4" />
+  <action id="GotoBookmark5" />
+  <action id="GotoBookmark6" />
+  <action id="GotoBookmark7" />
+  <action id="GotoBookmark8" />
+  <action id="GotoBookmark9" />
+  <action id="Jdbc.OpenConsole.New" />
+  <action id="Jdbc.OpenConsole.New.Generate" />
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="meta m" />
+  </action>
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="ctrl meta m" />
+  </action>
+  <action id="MinimizeCurrentWindow" />
+  <action id="MoveElementLeft" />
+  <action id="MoveElementRight" />
+  <action id="NextEditorTab" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
+  <action id="ParameterInfo.GoToPreviousSignature" />
+  <action id="PreviousEditorTab" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
-  <action id="ShowIntentionActions">
-    <keyboard-shortcut first-keystroke="meta period" />
-    <keyboard-shortcut first-keystroke="alt enter" />
-    <keyboard-shortcut first-keystroke="ctrl period" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="meta f2" />
+    <keyboard-shortcut first-keystroke="ctrl meta g" />
+  </action>
+  <action id="ShowContent" />
+  <action id="StepOut" />
   <action id="Switcher" />
 </keymap>
