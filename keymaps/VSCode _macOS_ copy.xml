@@ -39,6 +39,9 @@
   <action id="GotoBookmark9" />
   <action id="Jdbc.OpenConsole.New" />
   <action id="Jdbc.OpenConsole.New.Generate" />
+  <action id="LocateInSolutionView">
+    <keyboard-shortcut first-keystroke="ctrl meta l" />
+  </action>
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="meta m" />
   </action>
