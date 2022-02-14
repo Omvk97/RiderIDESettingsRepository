@@ -21,6 +21,10 @@
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift meta k" />
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
@@ -99,6 +103,8 @@
   <action id="ShowContent" />
   <action id="StepOut" />
   <action id="Switcher" />
+  <action id="Table-selectFirstRow" />
+  <action id="Tree-selectFirst" />
   <action id="XDebugger.AttachToProcess">
     <keyboard-shortcut first-keystroke="shift alt f5" />
     <keyboard-shortcut first-keystroke="shift meta a" second-keystroke="d" />
