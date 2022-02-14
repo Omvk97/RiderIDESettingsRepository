@@ -1,4 +1,9 @@
 <keymap version="1" name="VSCode (macOS) copy" parent="VSCode OSX">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl meta left" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta c" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
@@ -11,6 +16,8 @@
     <mouse-shortcut keystroke="Force touch" />
   </action>
   <action id="Console.TableResult.SetDefault" />
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
@@ -32,6 +39,10 @@
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+    <keyboard-shortcut first-keystroke="ctrl meta right" />
   </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="f1" />
@@ -65,6 +76,7 @@
   <action id="MinimizeCurrentWindow" />
   <action id="MoveElementLeft" />
   <action id="MoveElementRight" />
+  <action id="MoveTabRight" />
   <action id="NextEditorTab" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl tab" />
