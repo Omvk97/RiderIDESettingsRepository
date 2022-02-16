@@ -3,7 +3,12 @@
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta c" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
     <keyboard-shortcut first-keystroke="meta slash" />
-    <keyboard-shortcut first-keystroke="shift meta 7" />
+    <keyboard-shortcut first-keystroke="ctrl meta 7" />
+  </action>
+  <action id="Console.TableResult.NavigateForeignAction">
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="Force touch" />
   </action>
   <action id="Console.TableResult.SetDefault" />
   <action id="Diff.FocusOppositePane" />
@@ -24,6 +29,10 @@
   <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
     <keyboard-shortcut first-keystroke="shift meta alt left" />
   </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
@@ -37,6 +46,11 @@
   <action id="GotoBookmark7" />
   <action id="GotoBookmark8" />
   <action id="GotoBookmark9" />
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="Force touch" />
+  </action>
   <action id="Jdbc.OpenConsole.New" />
   <action id="Jdbc.OpenConsole.New.Generate" />
   <action id="LocateInSolutionView">
@@ -73,4 +87,8 @@
   <action id="ShowContent" />
   <action id="StepOut" />
   <action id="Switcher" />
+  <action id="XDebugger.AttachToProcess">
+    <keyboard-shortcut first-keystroke="shift alt f5" />
+    <keyboard-shortcut first-keystroke="shift meta a" second-keystroke="d" />
+  </action>
 </keymap>
