@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '…/Flightplan.Web/ClientApp/src/app/editflight/editflight.component.spec.ts'" />
-    <option name="defaultScopeName" value="File '…/Flightplan.Web/ClientApp/src/app/editflight/editflight.component.spec.ts'" />
+    <option name="customScope" value="Only changes uncommitted to VCS in file …/Flightplan.Web/ClientApp/src/app/subcomponents/flight-basics-selector/custom-date-picker-header/custom-date-picker-header.component.html" />
+    <option name="defaultScopeName" value="Only changes uncommitted to VCS in file …/Flightplan.Web/ClientApp/src/app/subcomponents/flight-basics-selector/custom-date-picker-header/custom-date-picker-header.component.html" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="File '…/Flightplan.Web/ClientApp/src/app/editflight/editflight.component.spec.ts'" />
+    <option name="SEARCH_SCOPE" value="Only changes uncommitted to VCS in file …/Flightplan.Web/ClientApp/src/app/subcomponents/flight-basics-selector/custom-date-picker-header/custom-date-picker-header.component.html" />
     <mask>*.cs</mask>
     <mask>*.js</mask>
   </component>
