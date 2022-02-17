@@ -4,6 +4,9 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="ctrl meta left" />
   </action>
+  <action id="CodeCleanup">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta c" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
@@ -90,9 +93,14 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
+  <action id="ReformatCode" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
+  <action id="SaveDocument" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>

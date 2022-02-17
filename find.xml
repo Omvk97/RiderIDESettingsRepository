@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Solution" />
-    <option name="defaultScopeName" value="Solution" />
+    <option name="customScope" value="File '…/Flightplan.Web/ClientApp/src/app/editflight/editflight.component.spec.ts'" />
+    <option name="defaultScopeName" value="File '…/Flightplan.Web/ClientApp/src/app/editflight/editflight.component.spec.ts'" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Solution" />
+    <option name="SEARCH_SCOPE" value="File '…/Flightplan.Web/ClientApp/src/app/editflight/editflight.component.spec.ts'" />
     <mask>*.cs</mask>
     <mask>*.js</mask>
   </component>
