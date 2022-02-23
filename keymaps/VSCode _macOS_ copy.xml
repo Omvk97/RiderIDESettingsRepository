@@ -75,6 +75,7 @@
     <mouse-shortcut keystroke="button2" />
     <mouse-shortcut keystroke="Force touch" />
   </action>
+  <action id="HideSideWindows" />
   <action id="Jdbc.OpenConsole.New" />
   <action id="Jdbc.OpenConsole.New.Generate" />
   <action id="LocateInSolutionView">
@@ -118,10 +119,14 @@
   <action id="StepOut" />
   <action id="Switcher" />
   <action id="Table-selectFirstRow" />
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="meta b" />
+  </action>
   <action id="Tree-selectFirst" />
   <action id="XDebugger.AttachToProcess">
     <keyboard-shortcut first-keystroke="shift alt f5" />
     <keyboard-shortcut first-keystroke="shift meta a" second-keystroke="d" />
   </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>
