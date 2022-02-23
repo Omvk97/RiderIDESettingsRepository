@@ -1,4 +1,12 @@
 <keymap version="1" name="VSCode (macOS) copy" parent="VSCode OSX">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl meta left" />
+  </action>
+  <action id="CodeCleanup">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta c" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
@@ -11,9 +19,15 @@
     <mouse-shortcut keystroke="Force touch" />
   </action>
   <action id="Console.TableResult.SetDefault" />
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift meta k" />
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
@@ -32,6 +46,10 @@
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+    <keyboard-shortcut first-keystroke="ctrl meta right" />
   </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="f1" />
@@ -65,6 +83,7 @@
   <action id="MinimizeCurrentWindow" />
   <action id="MoveElementLeft" />
   <action id="MoveElementRight" />
+  <action id="MoveTabRight" />
   <action id="NextEditorTab" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl tab" />
@@ -74,9 +93,14 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
+  <action id="ReformatCode" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
+  <action id="SaveDocument" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
@@ -87,8 +111,11 @@
   <action id="ShowContent" />
   <action id="StepOut" />
   <action id="Switcher" />
+  <action id="Table-selectFirstRow" />
+  <action id="Tree-selectFirst" />
   <action id="XDebugger.AttachToProcess">
     <keyboard-shortcut first-keystroke="shift alt f5" />
     <keyboard-shortcut first-keystroke="shift meta a" second-keystroke="d" />
   </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>
