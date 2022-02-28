@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'Flightplan.Web'" />
-    <option name="defaultScopeName" value="Project 'Flightplan.Web'" />
+    <option name="customScope" value="Only changes uncommitted to VCS in file …/Common/Utility/Extensions/StringExtensionMethods.cs" />
+    <option name="defaultScopeName" value="Only changes uncommitted to VCS in file …/Common/Utility/Extensions/StringExtensionMethods.cs" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'Flightplan.Web'" />
+    <option name="SEARCH_SCOPE" value="Only changes uncommitted to VCS in file …/Common/Utility/Extensions/StringExtensionMethods.cs" />
     <mask>*.cs</mask>
     <mask>*.js</mask>
   </component>
