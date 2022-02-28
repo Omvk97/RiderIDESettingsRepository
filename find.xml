@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Solution" />
-    <option name="defaultScopeName" value="Solution" />
-    <option name="SEARCH_SCOPE" value="Solution" />
+    <option name="customScope" value="Only changes uncommitted to VCS in file …/CITests/Flightplan.Api/Controllers/FlightsControllerTests.cs" />
+    <option name="defaultScopeName" value="Only changes uncommitted to VCS in file …/CITests/Flightplan.Api/Controllers/FlightsControllerTests.cs" />
+    <option name="SEARCH_SCOPE" value="Only changes uncommitted to VCS in file …/CITests/Flightplan.Api/Controllers/FlightsControllerTests.cs" />
     <mask>*.cs</mask>
     <mask>*.js</mask>
   </component>
