@@ -2,7 +2,7 @@
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl minus" />
     <mouse-shortcut keystroke="button4" />
-    <keyboard-shortcut first-keystroke="ctrl meta left" />
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
   <action id="CodeCleanup">
     <keyboard-shortcut first-keystroke="shift alt f" />
@@ -56,6 +56,7 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
     <keyboard-shortcut first-keystroke="ctrl meta right" />
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
   </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="f1" />
