@@ -120,6 +120,9 @@
     <keyboard-shortcut first-keystroke="meta f2" />
     <keyboard-shortcut first-keystroke="ctrl meta g" />
   </action>
+  <action id="Session.Client.Detach">
+    <keyboard-shortcut first-keystroke="shift alt f6" />
+  </action>
   <action id="ShowContent" />
   <action id="StepOut" />
   <action id="Switcher" />
