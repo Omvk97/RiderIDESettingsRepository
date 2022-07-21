@@ -1,6 +1,10 @@
 <keymap version="1" name="VSCode (macOS) copy" parent="VSCode OSX">
+  <action id="ActivateProjectToolWindow" />
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta g" />
+  </action>
+  <action id="AssemblyDiffAction">
+    <keyboard-shortcut first-keystroke="f8" />
   </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl minus" />
@@ -28,6 +32,9 @@
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
+  <action id="Diff.ShowDiff">
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift meta k" />
     <keyboard-shortcut first-keystroke="alt d" />
@@ -81,6 +88,12 @@
     <mouse-shortcut keystroke="meta button1" />
     <mouse-shortcut keystroke="Force touch" />
   </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="meta e" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="shift meta e" />
+  </action>
   <action id="HideSideWindows" />
   <action id="Jdbc.OpenConsole.New" />
   <action id="Jdbc.OpenConsole.New.Generate" />
@@ -129,6 +142,8 @@
   <action id="ShowContent" />
   <action id="StepOut" />
   <action id="Switcher" />
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Table-selectFirstRow" />
   <action id="Terminal.ClearBuffer">
     <keyboard-shortcut first-keystroke="meta l" />
@@ -137,7 +152,13 @@
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
   <action id="Tree-selectFirst" />
+  <action id="Vcs.Diff.ShowDiffInEditorTab">
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
   <action id="Vcs.Log.ShowAllAffected" />
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="meta dollar" />
+  </action>
   <action id="VcsHistory.ShowAllAffected" />
   <action id="XDebugger.AttachToProcess">
     <keyboard-shortcut first-keystroke="shift alt f5" />
