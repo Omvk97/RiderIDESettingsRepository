@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'Flightplan.Web'" />
-    <option name="defaultScopeName" value="Project 'Flightplan.Web'" />
-    <option name="SEARCH_SCOPE" value="Project 'Flightplan.Web'" />
+    <option name="customScope" value="Project 'Flightplan.API'" />
+    <option name="defaultScopeName" value="Project 'Flightplan.API'" />
+    <option name="SEARCH_SCOPE" value="Project 'Flightplan.API'" />
     <mask>*.cs</mask>
     <mask>*.js</mask>
     <mask>*.ts</mask>
