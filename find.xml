@@ -3,7 +3,6 @@
     <option name="customScope" value="Project 'Flightplan.Web'" />
     <option name="defaultScopeName" value="Project 'Flightplan.Web'" />
     <option name="SEARCH_SCOPE" value="Project 'Flightplan.Web'" />
-    <option name="FILE_MASK" value="*.ts" />
     <mask>*.cs</mask>
     <mask>*.js</mask>
     <mask>*.html</mask>
