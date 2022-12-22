@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'Traffic.Service'" />
-    <option name="defaultScopeName" value="Project 'Traffic.Service'" />
-    <option name="SEARCH_SCOPE" value="Project 'Traffic.Service'" />
+    <option name="customScope" value="Project 'Traffic.Streaming'" />
+    <option name="defaultScopeName" value="Project 'Traffic.Streaming'" />
+    <option name="SEARCH_SCOPE" value="Project 'Traffic.Streaming'" />
     <mask>*.js</mask>
     <mask>*.cs</mask>
     <mask>*.ts</mask>
