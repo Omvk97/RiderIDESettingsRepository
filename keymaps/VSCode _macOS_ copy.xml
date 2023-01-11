@@ -14,6 +14,7 @@
   <action id="CodeCleanup">
     <keyboard-shortcut first-keystroke="shift alt f" />
   </action>
+  <action id="CollapseBlock" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta c" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
@@ -166,4 +167,7 @@
   </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
+  <action id="osmedile.intellij.stringmanip.PopupChoiceAction">
+    <keyboard-shortcut first-keystroke="shift meta period" />
+  </action>
 </keymap>
