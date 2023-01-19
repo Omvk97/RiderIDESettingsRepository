@@ -2,9 +2,6 @@
   <HTMLCodeStyleSettings>
     <option name="HTML_UNIFORM_INDENT" value="true" />
   </HTMLCodeStyleSettings>
-  <editorconfig>
-    <option name="ENABLED" value="false" />
-  </editorconfig>
   <codeStyleSettings language="HTML">
     <indentOptions>
       <option name="USE_TAB_CHARACTER" value="true" />
