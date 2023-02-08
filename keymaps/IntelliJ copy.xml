@@ -1,0 +1,7 @@
+<keymap version="1" name="IntelliJ copy" parent="Mac OS X 10.5+">
+  <action id="EditorChooseLookupItemDot" />
+  <action id="Jdbc.OpenConsole.New" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
+</keymap>
