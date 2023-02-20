@@ -1,5 +1,8 @@
 <application>
   <component name="FindSettings">
+    <option name="customScope" value="Project 'HTTPRestPlugin'" />
+    <option name="defaultScopeName" value="Project 'HTTPRestPlugin'" />
+    <option name="SEARCH_SCOPE" value="Project 'HTTPRestPlugin'" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
