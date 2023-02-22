@@ -1,4 +1,7 @@
 <keymap version="1" name="VSCode (macOS) copy" parent="VSCode OSX">
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="meta x" />
+  </action>
   <action id="ActivateProjectToolWindow" />
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta g" />
@@ -27,6 +30,9 @@
     <mouse-shortcut keystroke="Force touch" />
   </action>
   <action id="Console.TableResult.SetDefault" />
+  <action id="DatabaseView.DataSourceCutAction">
+    <keyboard-shortcut first-keystroke="meta x" />
+  </action>
   <action id="DatabaseView.FullTextSearch" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
@@ -36,9 +42,13 @@
   <action id="Diff.ShowDiff">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
+  <action id="EditorCut">
+    <keyboard-shortcut first-keystroke="meta x" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift meta k" />
     <keyboard-shortcut first-keystroke="alt d" />
+    <keyboard-shortcut first-keystroke="shift delete" />
   </action>
   <action id="EditorDeleteToWordEndInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="meta alt delete" />
@@ -159,6 +169,9 @@
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
   <action id="Tree-selectFirst" />
+  <action id="UsageView.Remove">
+    <keyboard-shortcut first-keystroke="meta x" />
+  </action>
   <action id="Vcs.Diff.ShowDiffInEditorTab">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
