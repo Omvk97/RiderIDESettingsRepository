@@ -158,6 +158,9 @@
   </action>
   <action id="ShowContent" />
   <action id="StepOut" />
+  <action id="StringManipulation.ToCamelCase">
+    <keyboard-shortcut first-keystroke="ctrl meta c" />
+  </action>
   <action id="Switcher" />
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
